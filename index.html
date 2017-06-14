@@ -3,21 +3,33 @@
 
 <head>
   <title>FB Filter</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body>
 
-  <h1>Facebook Filter</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="text-nowrap">Facebook Timeline Filter</h4>
+        <div id="keywords">
+          
+          <ul class="list-group" id="keyword-list">
 
+          </ul>
 
-  <div id="keywords">
-      <ul id="keyword-list">
-      </ul>
+          <div class="">
+            <input class="form-control" type="text" name="keyword" 
+                  placeholder="keyword" id="keyword-val">
+            &nbsp;
+            <button class="btn btn-block btn-primary" id="submit-button">Add</button>
+          </div>
 
-    <input type="text" name="keyword" placeholder="keyword" id="keyword-val">
-    <button id="submit-button">Add</button>
-
+        </div>
+      </div>
+    </div>
   </div>
+
 <script src="index.js"></script>
 
 </body>

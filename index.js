@@ -56,7 +56,9 @@ function renderList(){
 			}, false);
 
 			entry.appendChild(document.createTextNode(value));
+			cancel.setAttribute("class", "btn btn-xs btn-danger pull-right");
 			cancel.appendChild(document.createTextNode("X"));
+			entry.setAttribute("class", "list-group-item");
 			entry.appendChild(cancel);
 			list.appendChild(entry);
 		});
