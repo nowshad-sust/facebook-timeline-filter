@@ -6,15 +6,15 @@ Google Chrome Browser
 
 ## Instructions
 
-### Process - 1
+### Process - 1 (Packed)
 
 * download the `FacebookFilter.crx` file
 * now drag and drop the file on your chrome browser and forward
 * congratulations! you've installed the extesnion successfully
 
-### Process - 2
+### Process - 2 (Unpacked)
 
-* download the folder/repository
+* download the `unpacked` folder/repository
 * extract/unzip the downloded folder
 * go to `chrome://extensions/` on your Google Chrome browser
 * tick the `developer mode`
